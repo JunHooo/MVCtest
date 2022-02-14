@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    
+}
+.Tasks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div .task{
+    position: relative;
+    border:1px solid red;
+    height: 50vh;
+    width: 50vw;
+}
+
+button{
+    width: 5vw;
+    height: 2vh;
+    padding:10px 10px;
+    margin-top: 20px;
+}
+.chinese{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.title1{
+    border:1px solid blue;
+    width: 50%;
+    height: 10vh;
+}
+.title2{
+    border:1px solid blue;
+    width: 50%;
+    height: 10vh;
+}
+.content1{
+    width: 50%;
+    height: 40vh;
+    display: none;
+}
+.content2{
+    width: 50%;
+    height: 40vh;
+    display: none;
+}
+.content1{
+    width: 50%;
+    height: 40vh;
+    display: none;
+    /* 让元素"隐身",但是依然占据原来的位置
+    visibility: visible; */
+}
+.active{
+    display: block;
+}
+.color{
+    background-color: pink;
+}
+
+
+.box{
+    border:1px solid blue;
+    width: 15vh;
+    height: 15vh;
+    margin-top: 20%;
+    margin-left: 20%;
+    transition: transform 1s;
+
+}
+.box.run{
+    transform: translateX(100px);
+}
+
+.yuan{
+    position: absolute;
+    border:1px solid red;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    border-radius: 50%;
+  
+}
+.change{
+    animation:colorful 3s linear 0s infinite;
+}
+    @keyframes colorful {
+        0%   {background-color: red;}
+        25%  {background-color: yellow;}
+        50%  {background-color: blue;}
+        100% {background-color: green;}
+    }
+ 
+
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */

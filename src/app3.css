@@ -1,0 +1,12 @@
+.box{
+    border:1px solid blue;
+    width: 15vh;
+    height: 15vh;
+    margin-top: 20%;
+    margin-left: 20%;
+    transition: transform 1s;
+
+}
+.box.run{
+    transform: translateX(100px);
+}

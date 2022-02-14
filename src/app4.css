@@ -1,0 +1,22 @@
+.yuan{
+    position: absolute;
+    border:1px solid red;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    border-radius: 50%;
+  
+}
+.change{
+    animation:colorful 3s linear 0s infinite;
+}
+    @keyframes colorful {
+        0%   {background-color: red;}
+        25%  {background-color: yellow;}
+        50%  {background-color: blue;}
+        100% {background-color: green;}
+    }
+ 

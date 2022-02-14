@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    
+}
+.Tasks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div .task{
+    position: relative;
+    border:1px solid red;
+    height: 50vh;
+    width: 50vw;
+}

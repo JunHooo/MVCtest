@@ -1,0 +1,39 @@
+.chinese{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.title1{
+    border:1px solid blue;
+    width: 50%;
+    height: 10vh;
+}
+.title2{
+    border:1px solid blue;
+    width: 50%;
+    height: 10vh;
+}
+.content1{
+    width: 50%;
+    height: 40vh;
+    display: none;
+}
+.content2{
+    width: 50%;
+    height: 40vh;
+    display: none;
+}
+.content1{
+    width: 50%;
+    height: 40vh;
+    display: none;
+    /* 让元素"隐身",但是依然占据原来的位置
+    visibility: visible; */
+}
+.active{
+    display: block;
+}
+.color{
+    background-color: pink;
+}
+
